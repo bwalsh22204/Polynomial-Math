@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -g -Wall
 SRCS = main.cc polynomial.cc
-OBJS = $(SOURCES:.cpp=.o)
+OBJS = $(SRCS:.cpp=.o)
 EXEC = poly
 
 all: $(SRCS) $(EXEC)
