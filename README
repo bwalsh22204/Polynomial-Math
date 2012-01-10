@@ -1,0 +1,42 @@
+Polynomial Math
+===============
+
+Requirements
+------------
+
+Polynomial Math is designed to compile on a Linux/Unix-compatible system. All development was done in Mac OS X.
+
+
+Purpose
+-------
+
+This project was written to fulfill an assignment for my Data Structures course. 
+It consists of a command-line interface for performing addition, subtraction, 
+multiplication, and modulus with two polynomials; for raising a polynomial to an 
+exponent; and for evaluating a polynomial by assigning a value to its variable.
+
+
+How to Use It
+-------------
+
+First you must compile the program. Simply navigate to the Polynomial-Math 
+directory via the command line and run 'make'. When complete, you can then run 
+the resulting 'poly' executable.
+
+Polynomials should be formatted like this:
+
+3x^4+2x^3+-5x+1
+
+Do not insert any whitespace between terms. It is important to note that, rather 
+than notating subtraction of a positive coefficient (such as 2x^3-5x), you must 
+notate addition of a negative coefficient. Also, please be sure to enter terms 
+from greatest power to least.
+
+
+Why am I Proud of This Project?
+-------------------------------
+
+Despite the notational limitations described in the previous section, this 
+project fulfilled the assignment and earned a perfect grade. Creating it gave me 
+a glimpse of the power of computers to easily handle complex tasks that are far 
+more challenging and/or time-consuming for humans. 

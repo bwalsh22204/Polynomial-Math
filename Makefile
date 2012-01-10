@@ -3,7 +3,7 @@ CFLAGS = -Wall -g
 SRCS = main.cc polynomial.cc
 OBJS = ${SRCS:.cc=.o}
 
-a.out: $(OBJS)
+poly: $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS)
 
 $(OBJS):
@@ -13,6 +13,6 @@ depend:
 	$(CC) -MM $(SRCS) > Makefile.dep
 
 clean:
-	rm -f $(OBJS) a.out core
+	rm -f $(OBJS) poly core
 
 include Makefile.dep
