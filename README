@@ -25,12 +25,11 @@ the resulting 'poly' executable.
 
 Polynomials should be formatted like this:
 
-3x^4+2x^3+-5x+1
+3x^4 + 2x^3 + -5x + 1
 
-Do not insert any whitespace between terms. It is important to note that, rather 
-than notating subtraction of a positive coefficient (such as 2x^3-5x), you must 
-notate addition of a negative coefficient. Also, please be sure to enter terms 
-from greatest power to least.
+It is important to note that, rather than notating subtraction of a positive 
+coefficient (such as 2x^3-5x), you must notate addition of a negative 
+coefficient. Also, please be sure to enter terms from greatest power to least.
 
 
 Why am I Proud of This Project?
