@@ -19,9 +19,9 @@ exponent; and for evaluating a polynomial by assigning a value to its variable.
 How to Use It
 -------------
 
-First you must compile the program. Simply navigate to the Polynomial-Math 
-directory via the command line and run 'make'. When complete, you can then run 
-the resulting 'poly' executable.
+First you must compile the program. Simply navigate to the project directory 
+via the command line and run 'make'. When complete, you can then run the 
+resulting 'poly' executable.
 
 Polynomials should be formatted like this:
 

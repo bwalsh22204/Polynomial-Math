@@ -1,18 +1,13 @@
 CC = g++
-CFLAGS = -Wall -g
+CFLAGS = -g -Wall
 SRCS = main.cc polynomial.cc
-OBJS = ${SRCS:.cc=.o}
+OBJS = $(SOURCES:.cpp=.o)
+EXEC = poly
 
-poly: $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS)
+all: $(SRCS) $(EXEC)
+	
+$(EXEC): $(OBJS) 
+	$(CC) $(OBJS) -o $@
 
-$(OBJS):
-	$(CC) $(CFLAGS) -c $*.cc
-
-depend:
-	$(CC) -MM $(SRCS) > Makefile.dep
-
-clean:
-	rm -f $(OBJS) poly core
-
-include Makefile.dep
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
